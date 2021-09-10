@@ -4,13 +4,13 @@ const ui = new UI();
 const search = document.getElementById('search');
 
 search.addEventListener('keyup',(event)=>{
-    ui.clear();
+    // ui.clear();
     let text = event.target.value;
     if(text !==''){
         profile.getProfile(text)
          .then(res => {
              if(res.profile.length === 0){
-                ui.showAlert(text)
+                // ui.showAlert(text)
              }else{
                 ui.showProfile(res.profile[0]);
              }

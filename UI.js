@@ -1,7 +1,7 @@
 class UI{
     constructor(){
-        this.profileContainer = document.getElementById('profiles');
-        this.alert = document.getElementById('alert')
+        this.profileContainer = document.getElementById('alert');
+        // this.alert = document.getElementById('alert')
     }
 
 
